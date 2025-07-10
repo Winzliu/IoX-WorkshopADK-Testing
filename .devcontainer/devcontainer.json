@@ -15,5 +15,6 @@
     "forwardPorts": [
         8000
     ],
-    "postCreateCommand": "echo 'Container is ready!'"
+    "postCreateCommand": "echo 'Container is ready!'",
+    "postStartCommand": "adk web"
 }
