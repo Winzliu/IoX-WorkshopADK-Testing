@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Perintah default (opsional)
-CMD ["python", "src/agent-IoX/agent.py"]
+CMD ["python", "agent-IoX/agent.py"]
